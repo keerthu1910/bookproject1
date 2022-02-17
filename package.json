@@ -19,7 +19,7 @@
     "start": "react-scripts start",
     "json-server":"json-server -p 3006 -w db.json",
     "dev":"concurrently \"npm start\" \"npm run json-server\"",
-    "build": "react-scripts dev",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
